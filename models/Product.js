@@ -12,6 +12,9 @@ ProductPImageSchema
  , 
 
 
+pCount:Number , 
+
+
 pSupplier:  
   {
     type: Schema.Types.ObjectId,
@@ -21,10 +24,7 @@ pSupplier:
  , 
 
 
-pTitle:String , 
-
-
-pCount:Number 
+pTitle:String 
 
 
 

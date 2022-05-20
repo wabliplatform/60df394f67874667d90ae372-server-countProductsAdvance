@@ -253,6 +253,9 @@ components:
           type: string
         pImage:
           $ref: '#/components/schemas/product_pImage'
+        pCount:
+          format: double
+          type: number
         pSupplier:
           oneOf:
           - $ref: '#/components/schemas/supplier'
@@ -260,9 +263,6 @@ components:
           x-one-of-name: supplier
         pTitle:
           type: string
-        pCount:
-          format: double
-          type: number
       required:
       - pCount
       - pImage
