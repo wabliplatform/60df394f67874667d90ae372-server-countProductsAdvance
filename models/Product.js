@@ -12,6 +12,9 @@ ProductPImageSchema
  , 
 
 
+pTitle:String , 
+
+
 pCount:Number , 
 
 
@@ -21,10 +24,7 @@ pSupplier:
     ref:'supplier'
   }
 
- , 
-
-
-pTitle:String 
+ 
 
 
 

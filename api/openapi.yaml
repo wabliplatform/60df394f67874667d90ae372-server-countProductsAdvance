@@ -253,6 +253,8 @@ components:
           type: string
         pImage:
           $ref: '#/components/schemas/product_pImage'
+        pTitle:
+          type: string
         pCount:
           format: double
           type: number
@@ -261,8 +263,6 @@ components:
           - $ref: '#/components/schemas/supplier'
           - type: string
           x-one-of-name: supplier
-        pTitle:
-          type: string
       required:
       - pCount
       - pImage
